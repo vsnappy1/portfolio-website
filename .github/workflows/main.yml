@@ -37,13 +37,3 @@ jobs:
 
     - name: Invalidate CloudFront Cache
       run: aws cloudfront create-invalidation --distribution-id ${{ secrets.DISTRIBUTION }} --paths "/*"
-
-#    - name: Deploy to AWS S3
-#      uses: aws-actions/aws-cli@v2
-#      with:
-#        args: |
-#          s3 sync build/ s3://portfolio-app-ak
-#          aws cloudfront create-invalidation --distribution-id E1CNQ8HCYLNWW3 --paths "/*"
-#      env:
-#        AWS_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY }}
-#        AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY }}
