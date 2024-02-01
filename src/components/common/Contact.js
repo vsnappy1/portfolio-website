@@ -18,7 +18,7 @@ const Contact = () => {
         e.preventDefault();
         setIsLoading(true);
         try {
-            let res = await fetch("https://7cglro32x4.execute-api.us-east-1.amazonaws.com/v1/vkportfolio", {
+            let res = await fetch("https://r6v7g145hi.execute-api.us-east-1.amazonaws.com/Prod/ContactForm", {
             method: "POST",
             body: JSON.stringify({
                 name: name,
