@@ -28,7 +28,7 @@ const Contact = () => {
                 phone: phoneNumber
               }),
             });
-            let resJson = await res.json();
+            await res.json();
             if (res.status === 200) {
                 setName("");
                 setEmail("");
