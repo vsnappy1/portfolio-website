@@ -11,3 +11,7 @@
 - Did some final touches to improve the user experience.
 - Setup Alternate domain for CloudFront Distribution to https://portfolio.vishalkumar.us
 - Implemented Automatic Deployment to S3 and CloudFront Distribution invalidatoin using GitHub Actions.
+
+
+### Architecture:
+![Diagram](https://github.com/vsnappy1/portfolio-website/assets/42217840/946c5ebd-b853-43c3-afaa-215d0b047a23)
