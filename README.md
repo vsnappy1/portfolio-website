@@ -9,7 +9,7 @@
 - Revamped from html to react.
 - Consumed ContactForm API Gateway endpoint on Contact Form submission in React.
 - Did some final touches to improve the user experience.
-- Setup Alternate domain for CloudFront Distribution to https://portfolio.vishalkumar.us
+- Setup Alternate domain for CloudFront Distribution to https://vishalkumar.us
 - Implemented Automatic Deployment to S3 and CloudFront Distribution invalidatoin using GitHub Actions.
 
 
